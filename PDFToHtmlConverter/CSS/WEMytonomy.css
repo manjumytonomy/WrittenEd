@@ -1,0 +1,125 @@
+
+/* Removed the global margin and padding reset */
+* {
+    text-indent: 0;
+    max-width: 750px;
+    margin: auto;
+}
+
+p {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+    margin: 10pt 0;
+}
+
+h1 {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20pt;
+    max-width: 750px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10pt; /* Added margin-bottom */
+}
+
+.h2,
+h2 {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16pt;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 10pt; /* Added margin-bottom */
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+h3 {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 10pt; /* Added margin-bottom */
+}
+
+h4 {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    text-align: left;
+}
+
+/*
+img {
+    display: block;
+    margin: 10pt auto;
+    max-width: 100%;
+    height: auto;
+}*/
+
+body {
+    padding: 20px;
+}
+
+li {
+    display: block;
+    max-width: 750px;
+    margin: auto;
+    list-style-type: none;  /* Remove default bullet points */
+    margin: 5pt 0; /* Added margin for spacing */
+}
+
+#l1 {
+    padding-left: 0pt;
+    max-width: 750px;
+    margin: auto;
+}
+
+#l1 > li > *:first-child:before {
+    content: "● ";
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+    max-width: 750px;
+    margin: auto;
+}
+
+.s2 {
+    color: black;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+    line-height: 110%;
+    padding-left: 41pt;
+    text-indent: -18pt;
+    text-align: left;
+}
+
+img[src$="Mytonomy_logo.png"] {
+    width: 150px;
+    height: 36px;
+}
